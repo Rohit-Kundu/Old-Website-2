@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@200&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+<section class="header">
+    <nav>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a target="_blank" href="https://drive.google.com/file/d/1J2AMywwIdhOQD6Cj54hEz2L2CFfOsiH_/view?usp=sharing">CV</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="blogs-bg">
+</div>
+<div class="blogs-text">
+    <h1 class="light">Blogs</h1>
+</div>
+    
+</section>
+
+<section class="blogs-list">
+    <div class="v7labs", style="padding: 15px;">
+        <h3>v7 Labs:</h3>
+    </div>
+    <div class="v7labs-list">
+        <ol>
+
+            <li><a target="_blank" href="https://www.v7labs.com/blog/ensemble-learning">The Complete Guide to Ensemble Learning</a></li>
+            <li><a target="_blank" href="https://www.v7labs.com/blog/zero-shot-learning-guide">The Essential Guide to Zero-Shot Learning [2022]</a></li>
+            <li><a target="_blank" href="https://www.v7labs.com/blog/self-supervised-learning-guide">The Beginner's Guide to Self-Supervised Learning</a></li>
+            <li><a target="_blank" href="https://www.v7labs.com/blog/contrastive-learning-guide">The Beginner's Guide to Contrastive Learning</a></li>
+
+        </ol>
+    </div>
+    
+    <div class="heartbeat", style="padding: 15px;">
+        <h3>Heartbeat:</h3>
+    </div>
+    <div class="heartbeat-list">
+        <ol>
+
+            <li><a target="_blank" href="https://heartbeat.comet.ml/a-guide-to-non-traditional-ensemble-learning-d2c0412fe0cb">A Guide to Non-traditional Ensemble Learning</a></li>
+            <li><a target="_blank" href="https://heartbeat.comet.ml/covid-19-detection-using-deep-learning-23e2209ef1df">COVID-19 Detection Using Deep Learning</a></li>
+            <li><a target="_blank" href="https://heartbeat.comet.ml/few-shot-learning-516bbf8f441e">Few-Shot Learning</a></li>
+            <li><a target="_blank" href="https://heartbeat.comet.ml/super-resolution-580424fb7f7c">Super-Resolution</a></li>
+            
+        </ol>
+    </div>
+    
+    <div class="thesequence", style="padding: 15px;">
+        <h3>TheSequence:</h3>
+    </div>
+    <div class="thesequence-list">
+        <ol>
+
+            <li><a target="_blank" href="https://thesequence.substack.com/p/edge138">Toloka App Services Aims to Make Data Labeling Easier for AI Startups</a></li>
+            <li><a target="_blank" href="https://thesequence.substack.com/p/edge158">A Deep Dive Into Aporia, the ML Observability Platform</a></li>
+            
+        </ol>
+    </div>
+    
+</section>
+
+
+<!------Footer----->
+<section class="footer">
+    <a target="_blank" href="https://scholar.google.com/citations?user=MxZUU8kAAAAJ"><img src="images/gscholar.png"></a>
+    <a target="_blank" href="https://github.com/Rohit-Kundu"><img src="images/github.png"></a>
+    <a target="_blank" href="https://www.researchgate.net/profile/Rohit-Kundu"><img src="images/rg.png"></a>
+    <a target="_blank" href="https://orcid.org/0000-0001-8665-8898"><img src="images/orcid.png"></a>
+    <a target="_blank" href="https://www.linkedin.com/in/rohitkundu2000/"><img src="images/linkedin.jpg"></a>
+    <a target="_blank" href="https://twitter.com/rohitkundu_2000"><img src="images/twitter.png"></a>
+</section>
+
+
+<!--------JavaScript for Toggle Menu------->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

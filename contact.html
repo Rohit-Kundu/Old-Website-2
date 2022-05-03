@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@200&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+<section class="header">
+    <nav>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a target="_blank" href="https://drive.google.com/file/d/1J2AMywwIdhOQD6Cj54hEz2L2CFfOsiH_/view?usp=sharing">CV</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="contact-bg">
+</div>
+<div class="contact-text">
+    <h1 class="light">Contact</h1>
+</div>
+    
+</section>
+
+<section class="contact">
+
+    <ul type="square">
+        <li><b>Email (Preferred): </b><a target="_blank" href="mailto:rohitkunduju@gmail.com">rohitkunduju [at] gmail [dot] com</a></li>
+        <li><b>Twitter: </b><a target="_blank" href="https://twitter.com/rohitkundu_2000">https://twitter.com/rohitkundu_2000</a></li>
+        <li><b>LinkedIn: </b><a target="_blank" href="https://www.linkedin.com/in/rohitkundu2000/">https://www.linkedin.com/in/rohitkundu2000/</a></li>
+        <li><b>GitHub: </b><a target="_blank" href="https://github.com/Rohit-Kundu">https://github.com/Rohit-Kundu</a></li>
+    </ul>
+    
+</section>
+
+
+<!------Footer----->
+<section class="footer">
+    <a target="_blank" href="https://scholar.google.com/citations?user=MxZUU8kAAAAJ"><img src="images/gscholar.png"></a>
+    <a target="_blank" href="https://github.com/Rohit-Kundu"><img src="images/github.png"></a>
+    <a target="_blank" href="https://www.researchgate.net/profile/Rohit-Kundu"><img src="images/rg.png"></a>
+    <a target="_blank" href="https://orcid.org/0000-0001-8665-8898"><img src="images/orcid.png"></a>
+    <a target="_blank" href="https://www.linkedin.com/in/rohitkundu2000/"><img src="images/linkedin.jpg"></a>
+    <a target="_blank" href="https://twitter.com/rohitkundu_2000"><img src="images/twitter.png"></a>
+</section>
+
+
+<!--------JavaScript for Toggle Menu------->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

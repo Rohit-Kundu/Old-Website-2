@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Rohit Kundu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<section class="header">
+    <nav>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a target="_blank" href="https://drive.google.com/file/d/1J2AMywwIdhOQD6Cj54hEz2L2CFfOsiH_/view?usp=sharing">CV</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <img src="images/RohitKundu.png", ALIGN="left", style="padding: 15px;">
+    <h1><br>About Me:</h1>
+    <p> 
+        I am Rohit Kundu (he/him), a senior undergraduate at the Department of Electrical Engineering, Jadavpur University, India. I will be joining the <a target="_blank" href="https://vcg.engr.ucr.edu/">Video Computing Group</a> headed by Prof. <a target="_blank" href="https://scholar.google.com/citations?user=hfgwx0oAAAAJ&hl=en&oi=ao">Amit K. Roy-Chowdhury</a> in Fall 2022 to pursue my Ph.D. in Electrical and Computer Engineering.
+    </p>
+    <p>
+        <br>
+        I work on Deep Learning mainly for Computer Vision applications, with a recent focus on reducing supervision in vision tasks. I primarily code in Python and use the PyTorch, Keras, and TensorFlow libraries for deep learning and have published several papers in reputed peer-reviewed journals and conferences (<a target="_blank" href="https://scholar.google.com/citations?user=MxZUU8kAAAAJ&hl=en">Google Scholar</a>). I am also a reviewer for notable IEEE, Elsevier, Springer and Wiley journals (<a target="_blank" href="https://publons.com/researcher/4557964/rohit-kundu/peer-review/">Publons Profile</a>).
+    </p>
+    
+    <table class="globe" cellpadding="0" cellspacing="4">
+        <!-- 4 columns -->
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td rowspan="4" colspan="0" halign="right" width=200px>
+            <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=LxQUIypIkZ1pWk2Lbi_NSjeyy9wxLLZRKvGRBw_r2pg"></script>
+          </td>
+        </tr>
+    </table>
+    
+</div>
+
+</section>
+
+<section class="Colleges">
+    <p>I have had the opportunity to work in the following institutions:</p>
+    <div class="row">
+        <div class="college-col">
+            <img src="images/USurrey.jpg">
+            <div class="layer">
+                <h3><a href="http://sketchx.eecs.qmul.ac.uk/">University of Surrey, UK</a></h3>
+            </div>
+        </div>
+        <div class="college-col">
+            <img src="images/knu.png">
+            <div class="layer">
+                <h3><a href="http://ecis.knu.ac.kr/">Kyungpook National University, South Korea</a></h3>
+            </div>
+        </div>
+        <div class="college-col">
+            <img src="images/ucr.png">
+            <div class="layer">
+                <h3><a target="_blank" href="https://vcg.ece.ucr.edu/">University of California, Riverside, USA</a></h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="college-col2">
+            <img src="images/etsmtl.png">
+            <div class="layer">
+                <h3><a target="_blank" href="https://www.etsmtl.ca/en/home">École de technologie supérieure Montréal, Canada</a></h3>
+            </div>
+        </div>
+        <div class="college-col2">
+            <img src="images/ju.png">
+            <div class="layer">
+                <h3><a href="http://www.jaduniv.edu.in/view_department.php?deptid=59 ">Jadavpur University, India</a></h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------Footer----->
+<section class="footer">
+    <a target="_blank" href="https://scholar.google.com/citations?user=MxZUU8kAAAAJ"><img src="images/gscholar.png"></a>
+    <a target="_blank" href="https://github.com/Rohit-Kundu"><img src="images/github.png"></a>
+    <a target="_blank" href="https://www.researchgate.net/profile/Rohit-Kundu"><img src="images/rg.png"></a>
+    <a target="_blank" href="https://orcid.org/0000-0001-8665-8898"><img src="images/orcid.png"></a>
+    <a target="_blank" href="https://www.linkedin.com/in/rohitkundu2000/"><img src="images/linkedin.jpg"></a>
+    <a target="_blank" href="https://twitter.com/rohitkundu_2000"><img src="images/twitter.png"></a>
+</section>
+
+
+<!--------JavaScript for Toggle Menu------->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175793439-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-175793439-1');
+</script>
+<!-- End Google Analytics -->
+    
+</body>
+</html>
